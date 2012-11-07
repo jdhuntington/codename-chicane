@@ -1,0 +1,10 @@
+Project Codename Chicane
+========================
+
+A music player for shared listening.
+
+The goal of this project is to enable an office or otherwise
+cohabitated environment to collectively share and listen to music. The
+primary use case is for many users to load and queue music from their
+own web browsers and play music using a single shared output device,
+such as an AirPlay endpoint.
