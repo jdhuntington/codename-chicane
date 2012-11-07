@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Project Codename Chicane</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A shared music player">
+    <meta name="author" content="JD Huntington">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+      padding-top: 80px;
+      padding-bottom: 40px;
+      }
+    </style>
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    <script src="/js/angular.min.js"></script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Project Codename Chicane</a>
+          <ul class="nav">
+            <li><a href="#queue">Queue</a></li>
+            <li><a href="#library">Library</a></li>
+            <li><a href="#recently">Recently...</a></li>
+            <li><a href="#upload">Upload</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hero-unit">
+        <div class="row">
+          <div class="span4">
+            <img src="/img/sample-cover.jpg" height="300" width="300" />
+          </div>
+          <div class="span4">
+            <h1>%Title%</h1>
+            <h2>%Artist%, %Album%</h2>
+            <h5>%CurrentPosition% / %Length%</h5>
+            <p><a class="btn">More Info &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span6">
+          <h2>Upcoming</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">Queue &raquo;</a></p>
+        </div>
+        <div class="span6">
+          <h2>Recently Played</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">History &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
