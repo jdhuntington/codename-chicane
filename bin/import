@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require File.expand_path('../../lib/chicane', __FILE__)
+Chicane::Database.activate
+
+ARGV.each do |filename|
+  Chicane::Track.import(filename)
+  puts "Imported #{filename}"
+end

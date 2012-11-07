@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require File.expand_path('../../lib/chicane', __FILE__)
+Chicane::Database.activate
+
+ARGV.each do |filename|
+  track = Chicane::Track.from_file(filename)
+  abort "#{filename} not imported" if track.new?
+  track.record_play
+end
